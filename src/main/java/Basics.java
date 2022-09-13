@@ -40,7 +40,7 @@ public class Basics {
          */
         System.out.println(7 + 5);
 
-        /* (Task 1): Write a line of code below that prints the string
+        /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
         System.out.println("Hello World!");
@@ -60,7 +60,7 @@ public class Basics {
          */
 
         /*
-         * (Task 2): Create a variable named my_variable and assign it the
+         * TODO (Task 2): Create a variable named my_variable and assign it the
          *                value 100.
          */
         int my_variable = 100;
@@ -90,7 +90,7 @@ public class Basics {
          */
 
         /*
-         * (Task 3): Create a for-loop that loops from 10 to 0, printing
+         * TODO (Task 3): Create a for-loop that loops from 10 to 0, printing
          *                the following at each iteration:
          *                Current count: #
          *
@@ -102,8 +102,7 @@ public class Basics {
          * Current count: 0
          */
         for (int i = 10; i>=0; i--){
-            int count = i;
-            System.out.println("Current count: "+ count);
+            System.out.println("Current count: "+ i);
         }
 
 
@@ -139,7 +138,7 @@ public class Basics {
      * @return           The first letter of every word in to_split
      */
     public static String split(String to_split) {
-        /* (Task 4): Complete this method body.
+        /* TODO (Task 4): Complete this method body.
          *                The String methods .split and .charAt may be helpful,
          *                along with the StringBuilder.append
          *                You may also assume that to_split always has 7 words
@@ -173,7 +172,7 @@ public class Basics {
     public static int oddSum(int[] arr) {
         int current_sum = 0;
 
-        /* (Task 5): Complete this method body using a for-loop.
+        /* TODO (Task 5): Complete this method body using a for-loop.
          *                You can find the length of an array by using the
          *                .length attribute (e.g. arr.length)
          *                You can index into arrays as we do in Python
@@ -191,7 +190,7 @@ public class Basics {
 
 
     /*
-     *  (Task 6): Submit the changes you made on GitHub!
+     * TODO (Task 6): Submit the changes you made on GitHub!
      *                When you submit it, go to the 'Actions' tab. You should
      *                be able to see this exercise being autograded!
      *
